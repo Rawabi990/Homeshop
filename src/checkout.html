@@ -7,9 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./icons/house-chimney.png">
     <title>Homeshop</title>
@@ -53,33 +50,35 @@
             <li><a href="">Dressing table</a></li>
         </ul>
     </header>
-    <section class="login-section">
-        <div class="container">
-          <div class="header-title">
-            <h1>welcome back</h1>
-          </div>
-          <div class="form-login">
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-              <a href="./signup.html" type="submit" class="btn btn-login">Submit</a>
-              <p class="text-center mt-3">
-                Don’t have an account?
-                <a href="./signup.html">Create one</a>
-              </p>
+    <section>
+        <div class="row row-checkout">
+            <h1>Shopping cart</h1>
+            <form action="" id="form-checkout">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>product</th>
+                            <th>price</th>
+                            <th>Required number</th>
+                            <th>total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                       
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" class="total-price">
+                                <span> Total price for all products </span>
+                                <span id="total-price-for-all-product">1500</span>
+                                <span>$</span>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
             </form>
-          </div>
         </div>
     </section>
     <footer>
@@ -132,8 +131,7 @@
       </div>
     </footer>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./js/index.js"></script>
+
 </body>
 
 </html>

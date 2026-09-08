@@ -7,9 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./icons/house-chimney.png">
     <title>Homeshop</title>
@@ -42,49 +39,30 @@
             </div>
         </div>
     </nav>
-    <header class="header">
-        <ul>
-            <li><a href="">Bed</a></li>
-            <li><a href="">Sofa</a></li>
-            <li><a href="">Chair</a></li>
-            <li><a href="">Table</a></li>
-            <li><a href="">Mirror</a></li>
-            <li><a href="">Wardrobe</a></li>
-            <li><a href="">Dressing table</a></li>
-        </ul>
-        <div class="row">
-          <div>
-            <p class="top-paragraph">Discover our carefully curated collection of luxary furniture
-            with designs that combine quality and beauty to suit 
-            your taste and elevate your home.
-            </p>
-            <a href="./products.html" class="btn">Shop Now</a>
-          </div>
-          <div class="top-image">
-            <img src="./images/9.jpg" alt="">
-            <img src="./images/20.jpg" alt="">
-            <img src="./images/5.jpg" alt="">
-          </div>
-        </div>
-    </header>
-    <section>
-      <div class="row">
-        <ul class="categories">
-          <li>Chairs <img src="./icons/armchair.png" alt=""></li>
-          <li>Mirrors <img src="./icons/mirror.png" alt=""> </li>
-          <li>Table <img src="./icons/side-table.png" alt=""></li>
-          <li>Wardrobes <img src="./icons/wardrobe.png" alt=""></li>
-          <li>Living Room<img src="./icons/sofa.png" alt=""></li>
-          <li>Bedroom <img src="./icons/double-bed.png" alt=""></li>
-        </ul>
-      </div>
+    <section class="products-section">
         <div class="row products">
+            <div class="row">
+                <ul class="categories">
+                    <li>Chairs <img src="./icons/armchair.png" alt=""></li>
+                    <li>Mirrors <img src="./icons/mirror.png" alt=""> </li>
+                    <li>Table <img src="./icons/side-table.png" alt=""></li>
+                    <li>Wardrobes <img src="./icons/wardrobe.png" alt=""></li>
+                    <li>Living Room<img src="./icons/sofa.png" alt=""></li>
+                    <li>Bedroom <img src="./icons/double-bed.png" alt=""></li>
+                </ul>
+            </div>
           <div class="card">
             <img src="./images/3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-              <a href="#" class="btn btn-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+<a href="#" 
+   class="add-to-cart"
+   data-name="Card title"
+   data-price="400"
+   data-image="./images/3.jpg">
+   🛒
+</a>
               <a href="#" class="btn btn-like"><i class="fa-solid fa-heart"></i></a>
               <span class="price">400$</span>
             </div>
@@ -139,15 +117,8 @@
               <span class="price">400$</span>
             </div>
           </div>
-        </div>
-        <div class="row best-products">
-          <div class="best-header">
-            <h1>Best Sellers</h1>
-            <p>Our top-rated furniture pieces loved by our customers</p>
-          </div>
-          <div class="best">
-            <div class="card">
-            <img src="./images/26.jpg" class="card-img-top" alt="...">
+          <div class="card">
+            <img src="./images/12.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -155,19 +126,59 @@
               <a href="#" class="btn btn-like"><i class="fa-solid fa-heart"></i></a>
               <span class="price">400$</span>
             </div>
+          </div>
+          <div class="card">
+            <img src="./images/11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="#" class="btn btn-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#" class="btn btn-like"><i class="fa-solid fa-heart"></i></a>
+              <span class="price">400$</span>
             </div>
-            <div class="card">
-              <img src="./images/29.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="#" class="btn btn-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
-                <a href="#" class="btn btn-like"><i class="fa-solid fa-heart"></i></a>
-                <span class="price">400$</span>
-              </div>
+          </div>
+          <div class="card">
+            <img src="./images/10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="#" class="btn btn-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#" class="btn btn-like"><i class="fa-solid fa-heart"></i></a>
+              <span class="price">400$</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="#" class="btn btn-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#" class="btn btn-like"><i class="fa-solid fa-heart"></i></a>
+              <span class="price">400$</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="#" class="btn btn-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#" class="btn btn-like"><i class="fa-solid fa-heart"></i></a>
+              <span class="price">400$</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="#" class="btn btn-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#" class="btn btn-like"><i class="fa-solid fa-heart"></i></a>
+              <span class="price">400$</span>
             </div>
           </div>
         </div>
+        
     </section>
     <footer>
       <div>
@@ -219,8 +230,6 @@
       </div>
     </footer>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./js/index.js"></script>
-</body>
+
 
 </html>
